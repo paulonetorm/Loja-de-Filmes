@@ -9,8 +9,6 @@
 </head>
 <body>
 	<c:import url="../menu.jsp"></c:import>
-
-	<p>Aqui existe um formulario onde o cliente pode se cadastrar para futuramente efetuar sua compra.</p>
 	<h1>Adicionar Cliente</h1>
 	<form action="/filmesSpring/clientes" method="post">
 		<div>
@@ -30,7 +28,5 @@
 			<button type="submit">Adicionar</button>
 		</div>
 	</form>
-	
-	
 </body>
 </html>

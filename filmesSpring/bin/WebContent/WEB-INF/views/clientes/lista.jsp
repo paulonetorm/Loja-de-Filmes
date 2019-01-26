@@ -10,7 +10,6 @@
 </head>
 <body>
 	<c:import url="../menu.jsp"></c:import>
-	<p>Essa lista mostra todos os clientes cadastrados.</p>
 	<h1>Lista de Clientes</h1>
 
 	<table border="1">

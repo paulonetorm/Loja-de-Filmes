@@ -8,9 +8,7 @@
 		<title>Insert title here</title>
 	</head>
 	<body>
-		
 		<c:import url="../menu.jsp"></c:import>
-		<p>Aqui o cliente cadastrado efetua a compra.</p>
 		<h1>Compras</h1>
 		<form action="/filmesSpring/vendas" method="post">
 		<div>

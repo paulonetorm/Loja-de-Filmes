@@ -12,10 +12,6 @@
 	<c:import url="menu.jsp"></c:import>
 
 
-	<h1>Bem vindo a uma loja de filmes online</h1>
-	</br>
-	</br>
-	<h2>Essa loja foi avaliada em <77 pontos na escala de nota</h2>
-	<p></p>
+	<h1>Bem vindo a aplicação Spring!</h1>
 </body>
 </html>

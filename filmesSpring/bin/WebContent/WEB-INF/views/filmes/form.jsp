@@ -10,8 +10,7 @@
 <body>
 <c:import url="../menu.jsp"></c:import>
 
-	<p>Essa página é destinada a gerência da loja para adicionar filmes ao catálago</p>
-	<h1>Adicionar Filme</h1>
+	<h1>Adicionar contato</h1>
 	<form action="/filmesSpring/filmes" method="post">
 		<div>
 			<label>Titulo:</label> <input type="text" name="titulo">

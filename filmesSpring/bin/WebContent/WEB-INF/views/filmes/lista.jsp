@@ -12,7 +12,6 @@
 <body>
 <c:import url="../menu.jsp"></c:import>
 
-	<p>Essa lista os clientes podem fazer pesquisa sobre o filme, os itens pesquisados podem ser; nome, genero, diretor e data de publicação.</p>
 	<h1>Lista de Filmes</h1>
 
 	<table border="1" id="minhaTabela">

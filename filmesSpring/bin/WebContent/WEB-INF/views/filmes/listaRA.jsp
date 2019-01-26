@@ -11,9 +11,7 @@
 </head>
 <body>
 <c:import url="../menu.jsp"></c:import>
-
-	<p>Essa lista a gerência vai usar para remover filmes que não existem mais no seu catalogo.</p>
-	<h1>Lista de Filmes para Remover</h1>
+	<h1>Lista de Filmes</h1>
 
 	<table border="1">
 		<thead>

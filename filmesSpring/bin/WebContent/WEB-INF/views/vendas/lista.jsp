@@ -11,8 +11,6 @@
 </head>
 <body>
 <c:import url="../menu.jsp"></c:import>
-<p>Aqui a loja e os clientes atualizam o Status da compra e verificam todos pedidos feitos.</p>
-<h1>Lista de todas as compras efetuadas</h1>
 <table border="1">
 		<thead>
 			<tr>
