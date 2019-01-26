@@ -1,0 +1,35 @@
+mysql> create database loja;
+Query OK, 1 row affected (0.00 sec)
+
+mysql> use loja;
+Database changed
+
+mysql> create table filmes (
+    -> id bigint not null auto_increment,
+    -> titulo varchar (255),
+    -> genero varchar (255),
+    -> diretor varchar (255),
+    -> dataLancamento date,
+    -> primary key (id)
+    -> );
+Query OK, 0 rows affected (0.17 sec)
+
+mysql> create table clientes (
+    -> id bigint not null auto_increment,
+    -> nome varchar (255),
+    -> email varchar (255),
+    -> endereco varchar (255),
+    -> dataNascimento date,
+    -> primary key (id)
+    -> );
+Query OK, 0 rows affected (0.11 sec)
+
+mysql> create table vendas (
+    -> id bigint not null auto_increment,
+    -> filmeID mediumtext,
+    -> clienteID mediumtext,
+    -> dataVenda date,
+    -> status varchar (255),
+    -> primary key (id)
+    -> );
+Query OK, 0 rows affected (0.16 sec)
